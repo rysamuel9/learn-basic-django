@@ -2,4 +2,4 @@ from django.urls import path
 
 from . import views
 
-urlpatterns = [path("<int:id>", views.index, name="index")]
+urlpatterns = [path("<str:name>", views.index, name="index")]
