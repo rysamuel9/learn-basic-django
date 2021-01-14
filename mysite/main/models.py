@@ -13,3 +13,9 @@ class Item(models.Model):
 
     def __str__(self):
         return self.text
+
+class Coba(models.Model):
+    percobaan = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.text
